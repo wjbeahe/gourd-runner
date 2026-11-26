@@ -1,4 +1,4 @@
-Problem: PR description was empty.
+
 Changes:
 1. Add Tips & combos section under §2 Controls (jump + lane switch, slide cancel, double threat, stay central, wait at the start)
 2. Reword §5 Sound and volume with a warning block about browser autoplay restriction
