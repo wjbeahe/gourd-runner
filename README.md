@@ -42,8 +42,8 @@ python -m http.server 8000
 
 - **Jump + lane switch:** while in the air you can still change lanes. Use this to dodge a pillar
   that appears right in front of you.
-- **Slide cancel:** pressing `↓` / `S` during a landing recovery cancels the brief cooldown and
-  lets you slide earlier — useful when a lintel follows a low barrier.
+- **Slide cancel:** pressing `↓` / `S` while in the air makes you drop fast, so you land sooner
+  and can slide earlier — useful when a lintel follows a low barrier.
 - **Double threat:** when you see a low barrier and a lintel in quick succession, jump over the
   first and immediately slide (hold `↓` / `S` before landing) to duck the second.
 - **Stay central:** the middle lane gives you the most reaction time for obstacles appearing on
