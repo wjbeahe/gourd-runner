@@ -1,14 +1,3 @@
-
-Changes:
-1. Add Tips & combos section under §2 Controls (jump + lane switch, slide cancel, double threat, stay central, wait at the start)
-2. Reword §5 Sound and volume with a warning block about browser autoplay restriction
-Checks:
-• src/game.js:523moveLane() — no air check, so lane switching works in the air ✅
-• src/game.js:540-546slide() — no cooldown or recovery gate; if (P.jumping) P.vy = Math.min(P.vy, -7) makes you drop fast ✅
-• index.html opens from file:// without a server ✅
-• Demo mode and sound verified on Chrome ✅
-
-
 # Gourd Runner · 黄胖快跑
 
 A short browser-based 3D endless runner built with **Three.js** (no framework, no build step).
@@ -165,3 +154,16 @@ file needs to change.
 
 `window.W05Game` exposes `start()`, `startDemo()`, `menu()`, `state()`, `snapshot()` and
 `advance(seconds)`. They are used by the group's automated checks and do not affect normal play.
+
+Problem:
+PR description was empty.
+
+Changes:
+1. Add Tips & combos section under §2 Controls (jump + lane switch, slide cancel, double threat, stay central, wait at the start)
+2. Reword §5 Sound and volume with a warning block about browser autoplay restriction
+
+Checks:
+- src/game.js:523 moveLane() — no air check, so lane switching works in the air ✅
+- src/game.js:540-546 slide() — no cooldown or recovery gate; if (P.jumping) P.vy = Math.min(P.vy, -7) makes you drop fast ✅
+- index.html opens from file:// without a server ✅
+- Demo mode and sound verified on Chrome ✅
